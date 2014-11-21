@@ -1,0 +1,71 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.sensores.MainActivity" >    
+
+    <TextView
+        android:id="@+id/txtLista"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/lista"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/listaID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtLista"
+        android:layout_below="@+id/txtLista"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/xID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAcelerometro"
+        android:layout_below="@+id/txtAcelerometro"
+        android:layout_marginTop="28dp"
+        android:text="@string/hello_world" />
+
+    <TextView
+        android:id="@+id/yID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAcelerometro"
+        android:layout_below="@+id/xID"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/zID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/txtAcelerometro"
+        android:layout_below="@+id/yID"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/txtAcelerometro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/listaID"
+        android:layout_below="@+id/listaID"
+        android:layout_marginTop="32dp"
+        android:text="@string/datosAcelerometro"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btnActivar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zID"
+        android:layout_marginTop="24dp"
+        android:text="@string/activar" />
+
+</RelativeLayout>

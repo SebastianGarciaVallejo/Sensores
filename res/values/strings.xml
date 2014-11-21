@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Sensores</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="lista">Lista de Sensores del Celular</string>
+    <string name="datosAcelerometro">Informacion del Acelerometro</string>
+    <string name="activar">Activar Sensor</string>
+
+</resources>
